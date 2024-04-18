@@ -13,7 +13,7 @@ Mini-project by:
 Cardiovascular Disease is the leading cause of death globally, representing 32% of global deaths.(World Health Organization: WHO, 2021)
 Managing risk factors such as smoking and physical inactivity can significantly reduce the likelihood of developing cardiovascular diseases
 # Objective:
-We aim to predict cardiovascular disease risk using a dataset of health records from over 70,000 patients. The goal is to develop a machine learning model that is not only accurate but also practical. A health checkup in Singapore costs about 1.5k on average, hence with this model, we will help reduce the need for unnecessary health checkups, hence saving costs.
+We aim to predict cardiovascular disease risk using a dataset of health records from over 70,000 patients. The goal is to develop a machine learning model that is not only accurate but also practical. A health checkup in Singapore costs about 1.5k on average, hence with this model, we will help reduce the need for unnecessary health checkups, hence saving costs. The main aim of this project is to tell users whether they should or should not be going to a health checkup based on their risk of cardiovascular disease.
 # What's Included:
 1. Cardiovascular Dataset
 2. Presentation Slides
