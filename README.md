@@ -53,11 +53,16 @@ We conducted a correlation analysis to identify and quantify the relationships b
 
 3. Handling Missing Data  
 Our analysis also included strategies for managing missing data, ensuring that our dataset was robust and our findings reliable. We explored the extent of missingness and evaluated different imputation methods where necessary.
-## Machine Learning
-
-## Analysis
+## Machine Learning Models
+*  Random Forest: This ensemble model uses multiple decision trees to make a final decision, known for its high accuracy and ability to handle unbalanced data effectively. It's particularly useful in our context as it can handle the complexities of various risk factors involved in cardiovascular diseases without overfitting to the training data.
+*  K-Nearest Neighbours (KNN): KNN was chosen for its ability to classify data based on feature similarity. This method is well-suited for our dataset as it can effectively find patterns in lifestyle and physiological data that are indicative of increased cardiovascular risk. By examining the 'nearest' samples in the feature space, KNN can predict the patient's risk level based on similarities to known cases.
+*  Neural Networks: Utilized for their capacity to learn non-linear relationships and complex patterns in large datasets. Neural networks are especially advantageous in predicting cardiovascular diseases because they can integrate various data types (like lifestyle habits, genetic factors, and clinical measurements) into a single predictive model, offering a holistic approach to risk assessment.
+## Analysis  
+Model Comparison: We evaluated each model based on its accuracy, precision, recall, and F1-score to determine which is most effective at predicting cardiovascular disease. These metrics are essential in the medical field to ensure that the predictions are not only accurate but also minimize false negatives, which can be critical in a clinical setting.
 
 ## Conclusion
+
+Our analysis provided insights into which models are most effective for predicting cardiovascular disease. The performance analysis showed that while all models offer valuable predictions, ensemble methods like Random Forest tend to perform better in handling the complexities and variations in the data associated with cardiovascular risks.
 
 # What are the new things learned
 
