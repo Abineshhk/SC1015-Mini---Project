@@ -10,10 +10,10 @@ Mini-project by:
 * Abineshkumar
 
 # Background:
-Cardiovascular Disease is the leading cause of death globally, representing 32% of global deaths.(World Health Organization: WHO, 2021)
-Managing risk factors such as smoking and physical inactivity can significantly reduce the likelihood of developing cardiovascular diseases
+Cardiovascular Disease(CVD) is the leading cause of death globally, representing 32% of global deaths.(World Health Organization: WHO, 2021)
+Managing risk factors such as smoking and physical inactivity can significantly reduce the likelihood of developing CVD.
 # Objective:
-We aim to predict cardiovascular disease risk using a dataset of health records from over 70,000 patients. The goal is to develop a machine learning model that is not only accurate but also practical. A health checkup in Singapore costs about 1.5k on average, hence with this model, we will help reduce the need for unnecessary health checkups, hence saving costs. The main aim of this project is to tell users whether they should or should not be going to a health checkup based on their risk of cardiovascular disease.
+We aim to predict CVD risks using a dataset of health records from over 70,000 patients. The goal is to develop a machine learning model that is not only accurate but also practical. A health checkup in Singapore costs about 1.5k on average, hence with this model, we will help reduce the need for unnecessary health checkups, hence saving costs.
 # What's Included:
 1. Cardiovascular Dataset
 2. Presentation Slides
@@ -46,6 +46,7 @@ The dataset was split into training and testing sets to prepare for machine lear
 ## Exploratory Data Analysis
 1. Data Visualization  
    * Box Plots: We used box plots to visually inspect the spread and outliers of numerical attributes. This was particularly useful for identifying extreme values in health measurements like blood pressure and body measurements.
+   * Violinplot: We used violin plots, a combination of kde and box plot to show the distribution, probability density, and summary statistics of data, providing a comprehensive view of its underlying structure.
    * Histograms: Histograms were employed to observe the frequency distributions of various attributes, helping to assess normality and skewness in the data.
    * Scatter Plots: We created scatter plots to explore potential relationships between variables. These plots were instrumental in spotting trends, correlations, and patterns that suggest relationships between different health indicators.
 2. Correlation Analysis  
@@ -54,15 +55,15 @@ We conducted a correlation analysis to identify and quantify the relationships b
 3. Handling Missing Data  
 Our analysis also included strategies for managing missing data, ensuring that our dataset was robust and our findings reliable. We explored the extent of missingness and evaluated different imputation methods where necessary.
 ## Machine Learning Models
-*  Random Forest: This ensemble model uses multiple decision trees to make a final decision, known for its high accuracy and ability to handle unbalanced data effectively. It's particularly useful in our context as it can handle the complexities of various risk factors involved in cardiovascular diseases without overfitting to the training data.
-*  K-Nearest Neighbours (KNN): KNN was chosen for its ability to classify data based on feature similarity. This method is well-suited for our dataset as it can effectively find patterns in lifestyle and physiological data that are indicative of increased cardiovascular risk. By examining the 'nearest' samples in the feature space, KNN can predict the patient's risk level based on similarities to known cases.
-*  Neural Networks: Utilized for their capacity to learn non-linear relationships and complex patterns in large datasets. Neural networks are especially advantageous in predicting cardiovascular diseases because they can integrate various data types (like lifestyle habits, genetic factors, and clinical measurements) into a single predictive model, offering a holistic approach to risk assessment.
+*  Random Forest: This ensemble model uses multiple decision trees to make a final decision, known for its high accuracy and ability to handle unbalanced data effectively. It's particularly useful in our context as it can handle the complexities of various risk factors involved in CVD without overfitting to the training data.
+*  K-Nearest Neighbours (KNN): KNN was chosen for its ability to classify data based on feature similarity. This method is well-suited for our dataset as it can effectively find patterns in lifestyle and physiological data that are indicative of increased CVD risk. By examining the 'nearest' samples in the feature space, KNN can predict the patient's risk level based on similarities to known cases.
+*  Neural Networks: Utilized for their capacity to learn non-linear relationships and complex patterns in large datasets. Neural networks are especially advantageous in predicting CVD because they can integrate various data types (like lifestyle habits, genetic factors, and clinical measurements) into a single predictive model, offering a holistic approach to risk assessment.
 ## Analysis  
-Model Comparison: We evaluated each model based on its accuracy, precision, recall, and F1-score to determine which is most effective at predicting cardiovascular disease. These metrics are essential in the medical field to ensure that the predictions are not only accurate but also minimize false negatives, which can be critical in a clinical setting.
+Model Comparison: We evaluated each model based on its accuracy, precision, recall, and F1-score to determine which is most effective at predicting CVD. These metrics are essential in the medical field to ensure that the predictions are not only accurate but also minimize false negatives, which can be critical in a clinical setting.
 
 ## Conclusion
 
-Our analysis provided insights into which models are most effective for predicting cardiovascular disease. The performance analysis showed that while all models offer valuable predictions, ensemble methods like Random Forest tend to perform better in handling the complexities and variations in the data associated with cardiovascular risks.
+Our analysis provided insights into which models are most effective for predicting CVD. The performance analysis showed that while all models offer valuable predictions, ensemble methods like Random Forest tend to perform better in handling the complexities and variations in the data associated with cardiovascular risks.
 
 # What are the new things learned
 
