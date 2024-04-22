@@ -47,8 +47,7 @@ The dataset was split into training and testing sets to prepare for machine lear
 1. Data Visualization  
    * Box Plots: We used box plots to visually inspect the spread and outliers of numerical attributes. This was particularly useful for identifying extreme values in health measurements like blood pressure and body measurements.
    * Violinplot: We used violin plots, a combination of kde and box plot to show the distribution, probability density, and summary statistics of data, providing a comprehensive view of its underlying structure.
-   * Histograms: Histograms were employed to observe the frequency distributions of various attributes, helping to assess normality and skewness in the data.
-   * Scatter Plots: We created scatter plots to explore potential relationships between variables. These plots were instrumental in spotting trends, correlations, and patterns that suggest relationships between different health indicators.
+   * Countplot: 
 2. Correlation Analysis  
 We conducted a correlation analysis to identify and quantify the relationships between different variables. This step was crucial for understanding which variables have potential predictive power and how they interact with each other.
 
@@ -78,7 +77,5 @@ Our analysis provided insights into which models are most effective for predicti
 *  Tensorflow Keras Neural Network
 
 # Contributions
-
-# References
 
 
