@@ -61,6 +61,10 @@ Our analysis also included strategies for managing missing data, ensuring that o
 ## Analysis  
 Model Comparison: We evaluated each model based on its accuracy, precision, recall, and F1-score to determine which is most effective at predicting CVD. These metrics are essential in the medical field to ensure that the predictions are not only accurate but also minimize false negatives, which can be critical in a clinical setting.
 
+Overall, we can conclude that:
+*  Neural Network(Tensorflow Keras) is the best model for recall score and time taken to fit a mdoel.
+*  K-Nearest Neighbours is the best model for time taken to predcit using the model.
+
 ## Conclusion
 
 Our analysis provided insights into which models are most effective for predicting CVD. The performance analysis showed that while all models offer valuable predictions, ensemble methods like Random Forest tend to perform better in handling the complexities and variations in the data associated with cardiovascular risks.
