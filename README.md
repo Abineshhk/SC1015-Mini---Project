@@ -70,6 +70,12 @@ Overall, we can conclude that:
 Our analysis provided insights into which models are most effective for predicting CVD. The performance analysis showed that while all models offer valuable predictions, ensemble methods like Random Forest tend to perform better in handling the complexities and variations in the data associated with cardiovascular risks.
 
 # What are the new things learned
+*  Feature Selection
+*  Recursive Feauture Elimination
+*  Grid Search
+*  Random Forest
+*  K-Nearest Neighbours
+*  Tensorflow Keras Neural Network
 
 # Contributions
 
