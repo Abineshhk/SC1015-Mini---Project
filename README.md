@@ -5,9 +5,9 @@ Analysis for cardiovascular disease prediction through machine learning
 # About:
 In this mini-project, we look at a cardiovascular dataset consisting of various different variables.  
 Mini-project by:
-* Jarel Koh
-* Boon Kiat
-* Abineshkumar
+* Jarel Koh @
+* Boon Kiat @boonkiat014
+* Abineshkumar @Abineshhk
 
 # Background:
 Cardiovascular Disease(CVD) is the leading cause of death globally, representing 32% of global deaths.(World Health Organization: WHO, 2021)
