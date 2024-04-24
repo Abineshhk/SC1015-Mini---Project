@@ -18,7 +18,7 @@ We aim to predict CVD risks using a dataset of health records from over 70,000 p
 1. Cardiovascular Dataset
 2. Presentation Slides
 3. Project Notebook
-4.   * Data Preparation
+4. Data Preparation
      * Exploratory Data Analysis
      * Feature Engineering/Scaling
      * Machine Learning Models
@@ -66,8 +66,8 @@ Overall, we can conclude that:
 ## Conclusion
 
 *  All models perform similarly with its own strengths and weaknesses.
-*  Although the fit time of Neural Network is longer than the K-Nearest Neighbors, and its predict time is higher than that of Random Forest, time is not an important factor for our problem. Our priority is to minimize the number of false negatives, and ensure the highest number of people with CVD are advised to get a checkup.
-*  Thus, we conclud that Neural Network is the best model for our model.
+*  Although the fit time of Neural Network is longer than that of the K-Nearest Neighbors, and its predict time is higher than that of Random Forest, time is not an important factor for our problem. Our priority is to minimize the number of false negatives, and ensure the highest number of people with CVD are advised to get a checkup.
+*  Thus, we conclude that Neural Network is the best model for our model.
 *  For future improvements, we can perhaps create a dataset that is more localized to the context of Singapore to obtain better prediction for the Singapore population.
 
 # What are the new things learned
