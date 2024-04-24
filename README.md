@@ -5,7 +5,7 @@ Analysis for cardiovascular disease prediction through machine learning
 # About:
 In this mini-project, we look at a cardiovascular dataset consisting of various different variables.  
 Mini-project by:
-* Jarel Koh @
+* Jarel Koh @JarelKoh
 * Boon Kiat @boonkiat014
 * Abineshkumar @Abineshhk
 
@@ -76,6 +76,14 @@ Our analysis provided insights into which models are most effective for predicti
 *  K-Nearest Neighbours
 *  Tensorflow Keras Neural Network
 
-# Contributions
-
+# References
+*  https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset
+*  https://pubmed.ncbi.nlm.nih.gov/30855814/#:~:text=Excerpt,is%20influenced%20by%20several%20variables.
+*  https://www.tensorflow.org/guide/keras
+*  https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html
+*  https://www.ncbi.nlm.nih.gov/books/NBK11793/?report=reader
+*  https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
+*  https://scikit-learn.org/stable/modules/neighbors.html
+*  https://www.harleystreet.sg/blog/benefits-and-costs-of-comprehensive-heart-screening/
+*  https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.RFE.html
 
