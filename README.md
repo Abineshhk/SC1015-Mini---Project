@@ -13,7 +13,7 @@ Mini-project by:
 Cardiovascular Disease(CVD) is the leading cause of death globally, representing 32% of global deaths.
 Managing risk factors such as smoking and physical inactivity can significantly reduce the likelihood of developing CVD.
 # Objective:
-We aim to predict CVD risks using a dataset of health records from over 70,000 patients. The goal is to develop a machine learning model that is not only accurate but also practical. A health checkup in Singapore costs up to 1.5k on average, hence with this model, we will help reduce the need for unnecessary health checkups, hence saving costs.
+We aim to predict CVD risks using a dataset of health records from 70,000 patients. The goal is to develop a machine learning model that is not only accurate but also practical. A health checkup in Singapore costs up to SGD$1,500 on average, hence with this model, we will help reduce the need for unnecessary health checkups, hence saving costs.
 # What's Included:
 1. Cardiovascular Dataset
 2. Presentation Slides
@@ -24,17 +24,17 @@ We aim to predict CVD risks using a dataset of health records from over 70,000 p
      * Machine Learning Models
          * Random Forest
          * K-Nearest Neighbours
-         * Nerual Networks
+         * Neural Network
      * Analysis
      * Conclusion
 # Details about Notebook
 ## Data Preparation 
-Our dataset consists of 13 features and over 70,000 records.  
+Our dataset consists of 13 features and 70,000 records.  
 1. Data Cleaning  
     * Redundant Column Removal: Columns not required for the analysis, such as 'id', were removed.
-    * Outlier Detection and Removal: Outliers in critical health indicators, specifically in blood pressure measurements, were identified using physiological thresholds and removed to ensure data quality.
+    * Detection of Outliers and Removal: Outliers of critical health indicators, specifically in blood pressure measurements, were identified using physiological thresholds and removed to ensure data quality.
     * Data Transformation: Age data was converted from days to years to make the data more interpretable and relevant for analysis.
-    * Handling Missing Data: Our analysis also included strategies for managing missing data, ensuring that our dataset was robust and our findings reliable. We explored the extent of missingness and evaluated different imputation methods where necessary.
+    * Handling Missing Data: Our analysis also included strategies to manage missing data, ensuring our dataset is robust and our findings are reliable. We explored the extent of missingness and evaluated different imputation methods where necessary.
 2. Data Visualization for Analysis  
 We visually inspected the distributions of numerical attributes through boxplots to better understand their characteristics and verify the effectiveness of the cleanup process.
 
@@ -55,7 +55,7 @@ We conducted a correlation analysis to identify and quantify the relationships b
 ## Machine Learning Models
 *  Random Forest: This ensemble model uses multiple decision trees to make a final decision, known for its high accuracy and ability to handle unbalanced data effectively. It's particularly useful in our context as it can handle the complexities of various risk factors involved in CVD without overfitting to the training data.
 *  K-Nearest Neighbours (KNN): KNN was chosen for its ability to classify data based on feature similarity. This method is well-suited for our dataset as it can effectively find patterns in lifestyle and physiological data that are indicative of increased CVD risk. By examining the 'nearest' samples in the feature space, KNN can predict the patient's risk level based on similarities to known cases.
-*  Neural Networks: Utilized for their capacity to learn non-linear relationships and complex patterns in large datasets. Neural networks are especially advantageous in predicting CVD because they can integrate various data types (like lifestyle habits, genetic factors, and clinical measurements) into a single predictive model, offering a holistic approach to risk assessment.
+*  Neural Network: Utilized for their capacity to learn non-linear relationships and complex patterns in large datasets. Neural networks are especially advantageous in predicting CVD because they can integrate various data types (like lifestyle habits, genetic factors, and clinical measurements) into a single predictive model, offering a holistic approach to risk assessment.
 ## Analysis  
 Model Comparison: We evaluated each model based on its recall score to determine which is most effective at predicting CVD. This metric is essential in the medical field to ensure that the predictions are not only accurate but also minimize false negatives, which can be critical in a clinical setting.
 
@@ -65,8 +65,8 @@ Overall, we can conclude that:
 
 ## Conclusion
 
-*  All models perform similarly with its own strengths and weaknesses.
-*  Although the fit time of Neural Network is longer than that of the K-Nearest Neighbors, and its predict time is higher than that of Random Forest, time is not an important factor for our problem. Our priority is to minimize the number of false negatives, and ensure the highest number of people with CVD are advised to get a checkup.
+*  All models performed similarly with its own strengths and weaknesses.
+*  Although the fit time of Neural Network is longer than that of the K-Nearest Neighbors, and its predict time is longer than that of Random Forest, time is not an important factor for our problem. Our priority is to minimize the number of false negatives, and ensure the highest number of people with CVD are advised to get a checkup.
 *  Thus, we conclude that Neural Network is the best model for our model.
 *  For future improvements, we can perhaps create a dataset that is more localized to the context of Singapore to obtain better prediction for the Singapore population.
 
