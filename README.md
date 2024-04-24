@@ -57,11 +57,11 @@ We conducted a correlation analysis to identify and quantify the relationships b
 *  K-Nearest Neighbours (KNN): KNN was chosen for its ability to classify data based on feature similarity. This method is well-suited for our dataset as it can effectively find patterns in lifestyle and physiological data that are indicative of increased CVD risk. By examining the 'nearest' samples in the feature space, KNN can predict the patient's risk level based on similarities to known cases.
 *  Neural Networks: Utilized for their capacity to learn non-linear relationships and complex patterns in large datasets. Neural networks are especially advantageous in predicting CVD because they can integrate various data types (like lifestyle habits, genetic factors, and clinical measurements) into a single predictive model, offering a holistic approach to risk assessment.
 ## Analysis  
-Model Comparison: We evaluated each model based on its accuracy, precision, recall, and F1-score to determine which is most effective at predicting CVD. These metrics are essential in the medical field to ensure that the predictions are not only accurate but also minimize false negatives, which can be critical in a clinical setting.
+Model Comparison: We evaluated each model based on its recall score to determine which is most effective at predicting CVD. This metric is essential in the medical field to ensure that the predictions are not only accurate but also minimize false negatives, which can be critical in a clinical setting.
 
 Overall, we can conclude that:
 *  Neural Network(Tensorflow Keras) is the best model for recall score and time taken to fit a mdoel.
-*  K-Nearest Neighbours is the best model for time taken to predcit using the model.
+*  K-Nearest Neighbours is the best model for time taken to predict using the model.
 
 ## Conclusion
 
